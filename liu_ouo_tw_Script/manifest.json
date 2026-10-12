@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "liu_ouo_tw studying",
+        "description": "liu_ouo_tw學習Script",
+        "uuid": "8898c8a0-e83e-4b3b-9e8e-7d16d05fc2b8",
+        "version": "1.0.0",
+        "min_engine_version": [1, 21, 120]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "7c2a9ebe-f863-431e-a0c6-111efb4ed9da",
+            "version": "1.0.0"
+        },
+        {
+            "type": "script",
+            "uuid": "b9f5b33c-efc8-48cb-b74c-2b71cb5cb17a",
+            "version": "1.0.0",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ]
+}
